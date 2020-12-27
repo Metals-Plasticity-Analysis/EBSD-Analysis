@@ -18,3 +18,38 @@ ylabel('\boldmath$\Phi$') % bold phi
 ax.XLabel.FontSize = 35;
 ax.YLabel.FontSize = 35;
 end
+
+
+% Place in the root directory of mtex and edit the plot.m from  --> mtex-5.3(root folder)\plotting\ODFSections\@ODFSections\plot.m
+% 
+% At mostly line 125; below 
+% ........................
+% .......................
+% % the plotting grid
+%     if iscell(oS.plotGrid)
+%       secS2Grid = oS.plotGrid{s};
+%     else
+%       secS2Grid = oS.plotGrid;
+%     end
+%     
+%     plotSection(oS,mtexFig.gca,s,secS2Grid,secData,'pcolor',varargin{:});
+%     plot_custom
+% end
+% ..................
+% .............................
+
+% % FOR Increasing the font size of IPF triangle
+% % go to ~\mtex-5.5.2\geometry\@vector3d\scatter.m
+% % line no. 236
+% % ......
+% % ......
+% %     text(v,get_option(varargin,{'text','label'}),'parent',sP(i).ax,...
+% %       'addMarkerSpacing',varargin{:},'doNotDraw','FontSize',28);
+% %     localResizeScatterCallback([],[],sP(i).ax);
+% %     
+% % ......
+% % ......
+% % 
+% % Add ",'FontSize',28"
+% % 
+% % save and exit
