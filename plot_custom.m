@@ -19,6 +19,17 @@ ax.XLabel.FontSize = 35;
 ax.YLabel.FontSize = 35;
 end
 
+%%%%%%%%%%%%%%%%%%%%%%%%%% ******* Increase font size of Pole figures **************%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Increase the multiplication factor
+
+%%%   if check_option(varargin,'global') && ~verLessThan('matlab','9.5')
+%%%     h = optiondraw(sgtitle(s,...
+%%%       'interpreter','LaTeX','FontSize',round(getMTEXpref('FontSize')*2)),varargin{:});  
+%%%   else
+%%%     h = optiondraw(title(ax,s,...
+%%%       'interpreter','LaTeX','FontSize',round(getMTEXpref('FontSize')*2)),varargin{:});
+
+
 
 % Place in the root directory of mtex and edit the plot.m from  --> mtex-5.3(root folder)\plotting\ODFSections\@ODFSections\plot.m
 % 
