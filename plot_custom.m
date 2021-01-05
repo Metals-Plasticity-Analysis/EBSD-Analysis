@@ -32,6 +32,10 @@ end
 
 
 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% *******Orientation distribution Function **************%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 % Place in the root directory of mtex and edit the plot.m from  --> mtex-5.3(root folder)\plotting\ODFSections\@ODFSections\plot.m
 % 
 % At mostly line 125; below 
@@ -50,6 +54,7 @@ end
 % ..................
 % .............................
 
+%%%%%%%%%%%%%%%%%%%%%%%%%% ******* Inverse Pole figures **************%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % % FOR Increasing the font size of IPF triangle
 % % go to ~\mtex-5.5.2\geometry\@vector3d\scatter.m
 % % line no. 236
@@ -65,3 +70,10 @@ end
 % % Add ",'FontSize',28"
 % % 
 % % save and exit
+
+
+%%% Remove X, Y or Z
+%%%%%% Path D:\Programs\Matlab\MTEX\mtex-5.5.2\ODFAnalysis\@ODF\plotIPDF.m
+
+% % % % Comment the Line 47
+% % % %     mtexTitle(cax(1),char(r(i),'LaTeX'));
