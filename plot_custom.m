@@ -21,8 +21,9 @@ end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%% ******* Increase font size of Pole figures **************%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Increase the multiplication factor
-%%%%%% Path D:\Programs\Matlab\MTEX\mtex-5.5.2\compatibility\mtexTitle.m
-
+%%%%%% Path D:\Programs\Matlab\MTEX\mtex-5.5.2\compatibility\mtexTitle.m 
+%%% Go to line 32
+%%% Change multiplication factor 1.1 to 2
 %%%   if check_option(varargin,'global') && ~verLessThan('matlab','9.5')
 %%%     h = optiondraw(sgtitle(s,...
 %%%       'interpreter','LaTeX','FontSize',round(getMTEXpref('FontSize')*2)),varargin{:});  
