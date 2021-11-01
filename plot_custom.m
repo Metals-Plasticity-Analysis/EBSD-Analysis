@@ -54,6 +54,11 @@ end
 % end
 % ..................
 % .............................
+%%%%%%%%%% Change Font of degree of Phi2 section %%%%%%%%%%
+% go to C:\Users\mjay\Documents\MATLAB\mtex-5.7.0\plotting\sphericalPlot.m
+% Line No. 136 
+% Increase font to 40-50
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%% ******* Inverse Pole figures **************%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % % FOR Increasing the font size of IPF triangle
@@ -78,3 +83,5 @@ end
 
 % % % % Comment the Line 47
 % % % %     mtexTitle(cax(1),char(r(i),'LaTeX'));
+
+
