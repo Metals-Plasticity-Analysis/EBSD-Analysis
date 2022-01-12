@@ -8,9 +8,8 @@ ax.LineWidth = 5
 ax.FontWeight='bold';
 ax.FontSize = 30
 ax.YLabel.FontSize = 25;
-
-
-
+ax.XTick=[0,30,60,90];
+ax.YTick=[0,30,60,90];
 %% Changing the Label of Plots Like Phi1, Phi etc
 % for ODF
 xlabel('\boldmath$\varphi_1$') % bold phi1
